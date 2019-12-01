@@ -1,4 +1,5 @@
-export const MorseCode = {
+// @ts-ignore
+export const MorseCodeD = {
     '-.-.--': '!',
     '.-..-.': '"',
     '...-..-': '$',
@@ -54,6 +55,6 @@ export const MorseCode = {
     '--..': 'Z',
     '..--.-': '_',
     '...---...': 'SOS',
-}
+};
 
-export default MorseCode;
+export default MorseCodeD;
