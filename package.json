@@ -1,9 +1,10 @@
 {
   "name": "ts-dojo-1",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "test": "jest --forceExit --coverage --verbose",
-    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet"
   },
   "dependencies": {},
   "devDependencies": {
